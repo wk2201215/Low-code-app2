@@ -18,6 +18,8 @@ dist/
 .DS_Store
 Thumbs.db
 
-*.exe filter=media -crlf
-*.nupkg filter=media -crlf
 
+out/low-code-app2-win32-x64/low-code-app2.exe filter=media -crlf
+out/make/squirrel.windows/x64/low_code_app2-1.0.0-full.nupkg filter=media -crlf
+out/make/squirrel.windows/x64/low_code_app2-1.0.0 Setup.exe filter=media -crlf
+node_modules/electron/dist/electron.exe filter=media -crlf
